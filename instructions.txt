@@ -1,0 +1,52 @@
+==============================================
+INSTRUCCIONES PARA EDITAR EL TEMPLATE RSVP
+==============================================
+
+¡Bienvenido! Este archivo te guiará para personalizar tu página RSVP de boda.
+
+==============================================
+1. ESTRUCTURA DE CARPETAS
+==============================================
+
+Tu proyecto debe tener esta estructura:
+
+proyecto-rsvp/
+├── index.html          (Estructura HTML)
+├── styles.css          (Estilos y diseño)
+├── script.js           (Funcionalidad)
+├── INSTRUCCIONES.txt   (Este archivo)
+├── img/                (Carpeta para imágenes)
+│   ├── hero-background.jpg    (Imagen del encabezado)
+│   └── couple-photo.jpg       (Foto de la pareja)
+└── fonts/              (Carpeta para fuentes personalizadas - opcional)
+    └── MiFuente.woff2
+
+==============================================
+2. CÓMO AÑADIR TUS IMÁGENES
+==============================================
+
+PASO 1: Coloca tus imágenes en la carpeta "img/"
+
+PASO 2: Renombra tus imágenes o edita estos archivos:
+   - En index.html, busca: src="img/couple-photo.jpg"
+   - En styles.css, busca: background-image: url('img/hero-background.jpg')
+
+RECOMENDACIONES:
+   - Imagen de fondo (hero): Mínimo 1920x1080px, formato JPG
+   - Foto de pareja: Entre 800x1000px, formato JPG o PNG
+
+==============================================
+3. CÓMO CAMBIAR COLORES
+==============================================
+
+Abre el archivo "styles.css" y busca la sección ":root" al inicio.
+
+COLORES PRINCIPALES (líneas 18-24):
+   --color-primary: #4a5f4d;        ← Verde oscuro principal
+   --color-secondary: #f5f1e8;      ← Color de fondo beige
+   --color-accent: #8b9d83;         ← Verde suave para detalles
+   --color-text-dark: #2c2c2c;      ← Color del texto oscuro
+   --color-text-light: #ffffff;     ← Color del texto claro
+
+EJEMPLO: Para cambiar el verde por azul marino:
+   Cambia: --color-primary: #4a5f4d;
