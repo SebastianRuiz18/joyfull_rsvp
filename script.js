@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // EDITAR: Cambia esta fecha por la fecha de tu boda (Año, Mes-1, Día, Hora, Minuto)
     // Nota: Los meses en JavaScript van de 0-11 (0=Enero, 11=Diciembre)
-    const weddingDate = new Date(2026, 3, 13, 15, 0, 0); // 13 de Abril, 2026 a las 3:00 PM
+    // Fecha fija en Pacific Time (California) - TODOS verán la misma cuenta regresiva
+    const weddingDate = new Date('2026-04-13T15:00:00-07:00');
     
     // Función para actualizar el countdown
     function updateCountdown() {
